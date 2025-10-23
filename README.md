@@ -1,5 +1,4 @@
 # LSTM_Model_selection
-LSTM model selection
 
 This repository contains a PyTorch-based implementation for automated model selection in Long Short-Term Memory (LSTM) neural networks. The notebook LSTM_Model_Selection.ipynb provides a structured framework for selecting both the number of hidden units and the optimal subset of input features based on Bayesian Information Criterion (BIC). The code defines a simple LSTM model (LSTMNet) and implements a series of algorithms for model selection. 
 Algorithm 1 fits candidate LSTM models with multiple random initializations to mitigate local minima and computes the BIC score to assess model quality. 
